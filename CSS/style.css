@@ -67,8 +67,7 @@ li{
     background-color: #A0ACF2 ;
     height: 70px;
 }
-.logo{
-}
+
 #primaryNav{
     width: auto;
     padding: 1%;
@@ -97,29 +96,6 @@ li{
     color: #F59836;
     }
 
-.heroImg{
-    max-width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    bottom:auto
-    overflow: hidden;
-    position: relative;
-    text-align: right;
-}
-.heroContent{
-    position:absolute;
-    bottom: 100px;
-    text-align: left;
-    justify-content: ;
-    color: white;
-    padding: 20px;
-    align-items: 
-    align-content: flex-end;
-}
-.heroContent h4{
-    padding: 2px;
-
-}
 .heading{
     max-width: 100%;
     padding-top: -5px;
