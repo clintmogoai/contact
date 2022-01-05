@@ -34,40 +34,56 @@
                 </div>    
              </header>
 <!--contact form-->
-             <div class="background">
-                <div class="container">
-                    <div class="screen-body">
-                      <div class="screen-body-item left">
-                        <div class="app-title">
-                          <span><h1>Get in Touch</h1></span>
-                          <span><h></h1></span>
-                        </div>
-                        
-                      </div>
-                      <div class="screen-body-item">
-                        <form action="mail.php" method="post">
-                        <div class="app-form">
-                          <div class="app-form-group">
-                            <input class="app-form-control" type="text" name="Name" placeholder="Name">
-                          </div>
-                          <div class="app-form-group">
-                            <input class="app-form-control" type="email" name="Email"placeholder="Email">
-                          </div>
-                          <div class="app-form-group">
-                            <input class="app-form-control" type="text" name="Subject"placeholder="Subject">
-                          </div>
-                          <div class="app-form-group message">
-                            <input class="app-form-control" type="text" name="Message" placeholder="Message">
-                            <textarea name="message" id="message" cols="30" rows="10"></textarea>
-                          </div>
-                          <div class="app-form-group buttons">
-                            <button class="app-form-button"><p>CANCEL</p></button>
-                            <button class="app-form-button-2"><p>SEND</p></button>
-                          </div>
-                        </div>
-                      </form>
-                      </div>
-                    </div>
-                  </div>
-    </body>
+<div class="background">
+  <div class="container">
+      <div class="screen-body">
+        <div class="screen-body-item left">
+          <div class="app-title">
+            <span><h1>Get in Touch</h1></span>
+            <span><h></h1></span>
+          </div>
+     </div>
+       <form action="mailto:clintmogoai@gmail.com"
+        method="POST"
+        enctype="text/plain"
+        name="EmailForm">
+        <div class="screen-body-item">
+          <div class="app-form">
+            <div class="app-form-group">
+              <input class="app-form-control" type="text" name="Name" placeholder="Name">
+            </div>
+            <div class="app-form-group">
+              <input class="app-form-control" type="email" name="Email"placeholder="Email">
+            </div>
+            <div class="app-form-group">
+              <input class="app-form-control" type="text" name="Ph Number"placeholder="Ph Number">
+            </div>
+            <div class="app-form-group message">
+              <input class="app-form-control" type="text" name="Message" placeholder="Message">
+              <textarea name="message" id="message" cols="30" rows="10"></textarea>
+            </div>
+            <div class="app-form-group buttons">
+              <button class="app-form-button"><p>CANCEL</p></button>
+              <button class="app-form-button-2"><p>SEND</p></button>
+            </div>
+          </div>
+        </form>
+        </div>
+      </div>
+    </div>
+
+
+
+      </div>
+      <div id="fcf-thank-you" style="display:none">
+          <!-- Thank you message goes below -->
+          <p>Thanks for contacting us, we will get back in touch with you soon.</p>
+          <!-- Thank you message goes above -->
+      </div>
+  </div>
+</div>
+<script src="fcf-assets/js/lang/fcf.en.js"></script>
+<script src="fcf-assets/js/fcf.just-validate.min.js"></script>
+<script src="fcf-assets/js/fcf.form.js"></script>
+</body>
 </html>
